@@ -3,13 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>game</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="wrap">
-      <h1>도메인 테스트</h1>
-      <p>수정</p>
+      <div class="contants">
+        <h1>숫자 맞추기 게임</h1>
+        <video
+          src="tumblr_miqqdyyPUW1rxvfd0o1_500.mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+        <div id="result-area">게임을 시작하지</div>
+        <h2>남은 기회: 5</h2>
+        <input type="number" id="user-input" placeholder="1부터 100까지 입력" />
+        <button id="play-button">Go~</button>
+      </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>

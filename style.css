@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+#wrap {
+  background: url(../IMG_5581.jpg);
+  height: 100vh;
+  padding: 100px;
+}
+.contants {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 10px solid #fff;
+  border-radius: 30px;
+  text-align: center;
+  padding: 100px;
+  height: calc(100vh - 200px);
+}
+h1 {
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+#result-area {
+  margin-top: 50px;
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
+}
+h2 {
+  margin-top: 50px;
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: bold;
+}
+#user-input {
+  margin-top: 50px;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+#play-button {
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+}
