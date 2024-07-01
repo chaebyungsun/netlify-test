@@ -16,6 +16,7 @@ playButton.addEventListener("click", play);
 restButton.addEventListener("click", reset);
 
 function pickRandomNum() {
+  // 랜덤뽑기
   computerNum = Math.floor(Math.random() * 100) + 1;
   console.log("정답", computerNum);
 }
@@ -36,7 +37,7 @@ function play() {
 
   chanceArea.textContent = `남은기회:${chances}`;
 
-  if (chances == 1) {
+  if (chances < 1) {
     gameOver = true;
   }
   if (gameOver == true) {
